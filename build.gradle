@@ -21,8 +21,8 @@ buildscript {
 }
 
 apply plugin: 'org.jenkins-ci.jpi'
-apply plugin 'java'
-apply plugin 'groovy'
+apply plugin: 'java'
+apply plugin: 'groovy'
 
 group = "org.jenkins-ci.plugins"
 version = "0.0.1-SNAPSHOT"  
